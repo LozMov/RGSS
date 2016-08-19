@@ -6,11 +6,11 @@
 
 ## IniFile.rb
 用于在RGSS中读取、写入ini文件中的值。
-    <pre>INI = IniFile.new(".\\Game.ini")
-    p INI[:Game][:Title] #获取游戏标题，缓冲区大小默认为64
-    p INI[:Game][:Title2] #读取一个不存在的键，则返回空字符串
-    p INI[:Game][:Title2,"NONE",128] #若读取的键不存在则返回"NONE"，并指定缓冲区大小为128
-    INI[:Game][:Title] = "Project1" #写入键值</pre>
+<pre>INI = IniFile.new(".\\Game.ini")
+p INI[:Game][:Title] #获取游戏标题，缓冲区大小默认为64
+p INI[:Game][:Title2] #读取一个不存在的键，则返回空字符串
+p INI[:Game][:Title2,"NONE",128] #若读取的键不存在则返回"NONE"，并指定缓冲区大小为128
+INI[:Game][:Title] = "Project1" #写入键值</pre>
 
 ## FTP.rb
 用于在RM中连接FTP。功能不甚完善，仅供试验用。
