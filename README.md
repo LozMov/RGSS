@@ -16,4 +16,4 @@ INI[:Game][:Title] = "Project1" #写入键值</pre>
 用于在RM中连接FTP。功能不甚完善，仅供试验用。
 
 ## EasyConv.rb
-转码模块，原作者不明。原版脚本实现了 `EasyConv.s2u(str)`, `EasyConv.s2u(str)` 两个模块方法。我将其修改为String类的实例方法，使用较为方便。
+转码模块，原作者不明。原版脚本实现了 `EasyConv.s2u(str)`, `EasyConv.u2s(str)` 两个模块方法。我将其修改为String类的实例方法，使用较为方便。
