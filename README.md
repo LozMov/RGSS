@@ -17,3 +17,6 @@ INI[:Game][:Title] = "Project1" #写入键值</pre>
 
 ## EasyConv.rb
 转码模块，原作者不明。原版脚本实现了 `EasyConv.s2u(str)`, `EasyConv.u2s(str)` 两个模块方法。我将其修改为String类的实例方法，使用较为方便。
+
+## HexColor.rb
+用于在RGSS中使用十六进制颜色表示法。具体使用方法请参考脚本内说明。
